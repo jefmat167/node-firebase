@@ -1,0 +1,32 @@
+POST http://localhost:3030/api/customers
+Content-Type: application/json
+
+{
+    "name": "Bob Lee",
+    "isGold": false,
+    "phone": "07037577120" 
+}
+
+# POST http://localhost:3030/api/genres
+# Content-Type: application/json
+
+# {
+#     "name": "Action"   
+# }
+
+# add a movie
+# POST http://localhost:3030/api/movies
+# Content-Type: application/json
+
+# {
+#     "title": "True Legend",
+#     "genreId": "7OEqYxPlG7GLv5gP9vgb",
+#     "numberInStock": 12,
+#     "dailyRentalRate": 2,
+#     "price": 100
+    
+# }
+
+
+# GET http://localhost:3030/api/add
+
